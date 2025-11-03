@@ -9,6 +9,9 @@
 .header__links-list {
   display: flex;
   gap: 32px;
+}
+
+.header__links-list-item {
   list-style: circle;
 }
 
