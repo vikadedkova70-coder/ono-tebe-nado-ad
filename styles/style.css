@@ -123,7 +123,7 @@
   padding: 180px 25px;
 }
 
-.lots__heading {  
+.lots__heading {
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 27px;
@@ -178,7 +178,7 @@
 }
 
 .card__title {
-  position: relative;  
+  position: relative;
   text-decoration: underline;
   text-transform: uppercase;
   font-size: 22px;
