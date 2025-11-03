@@ -9,9 +9,6 @@
 .header__links-list {
   display: flex;
   gap: 32px;
-}
-
-.header__links-list-item {
   list-style: circle;
 }
 
@@ -20,7 +17,7 @@
 }
 
 .link {
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
 }
 
 .link_active {
@@ -28,9 +25,9 @@
 }
 
 .header__logo {
+  justify-self: center;
   width: 148px;
   height: 105px;
-  justify-self: center;
 }
 
 .header__logo-image {
@@ -38,45 +35,38 @@
 }
 
 .header__address {
-  display: flex;
-  flex-direction: column;
   justify-self: end;
   max-width: 240px;
   font-style: normal;
-  line-height: 24.3px;
-  padding-left: 5px;
-}
-
-.address {
-  text-underline-offset: 4px;
+  line-height: 1.35;
 }
 
 .cover {
   position: relative;
+  padding: 165px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
-  padding: 165px 50px 50px;
 }
 
 .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.6);
   inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
 .cover__title {
   position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 20px;
   color: white;
   font-weight: bold;
   font-size: 100px;
+  line-height: 1.15;
   text-transform: uppercase;
-  line-height: 115px;
-  z-index: 2;
 }
 
 .aligned-text {
@@ -86,37 +76,40 @@
 
 .aligned-text_center {
   text-align: center;
+  line-height: 1;
 }
 
 .aligned-text_right {
   text-align: right;
+  line-height: 1;
 }
 
 .cover__description {
   position: relative;
+  z-index: 2;
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 100px;
+  gap: 78px;
   margin-top: 135px;
-  z-index: 2;
 }
 
 .cover__description-text {
   color: white;
-  text-transform: uppercase;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27;
+  text-transform: uppercase;
   word-spacing: 18px;
 }
 
 .bet-button {
-  background: transparent;
-  color: white;
-  text-transform: uppercase;
-  font-size: 22px;
   border: 1px solid white;
   padding: 12px 32px;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -124,23 +117,23 @@
 }
 
 .lots__heading {
-  font-size: 40px;
-  text-transform: uppercase;
   margin-bottom: 27px;
   margin-left: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
   display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 24px;
+  gap: 25px;
   margin-bottom: 30px;
+  list-style: none;
 }
 
 .lots__card-list-item {
-  width: 334px;
-  min-height: 596px;
+  flex-grow: 1;
+  width: 430px;
+  min-height: 450px;
 }
 
 .card-link {
@@ -154,9 +147,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: white;
   height: 100%;
   padding: 50px 40px;
+  color: white;
 }
 
 .card_type_film {
@@ -179,26 +172,25 @@
 
 .card__title {
   position: relative;
+  z-index: 2;
+  font-size: 22px;
+  line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
-  font-size: 22px;
   margin-bottom: 30px;
-  line-height: 1.2;
-  z-index: 2;
 }
 
 .card__text {
   position: relative;
+  z-index: 2;
   font-size: 20px;
   line-height: 1.2;
-  z-index: 2;
 }
 
 .lots__look-more-link {
-  text-underline-offset: 4px;
-  text-decoration: underline;
-  font-size: 20px;
   margin-left: 40px;
+  font-size: 20px;
+  text-underline-offset: 5px;
 }
 
 .about {
@@ -219,43 +211,40 @@
   align-items: center;
   width: 240px;
   height: 240px;
+  margin: 0 auto;
   border-radius: 50%;
   background-color: black;
-  margin: 0 auto;
 }
 
 .about__logo-image {
   width: 148px;
-  height: 114px;
 }
 
 .about__title {
-  text-transform: uppercase;
-  font-size: 40px;
   margin: 100px 0;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
+  gap: 25px;
   font-size: 20px;
-  line-height: 24px;
-  gap: 24px;
+  line-height: 1.2;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  font-size: 18px;
   padding: 0 50px 90px;
+  font-size: 18px;
 }
 
 .footer__address {
-  display: flex;
-  flex-direction: column;
   justify-self: start;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 1.35;
 }
 
 .footer__menu {
@@ -270,7 +259,7 @@
 }
 
 .footer__menu-link {
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
 }
 
 .footer__menu-link_active {
