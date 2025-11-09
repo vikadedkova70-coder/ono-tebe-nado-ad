@@ -63,7 +63,7 @@
   gap: 20px;
   color: white;
   font-weight: bold;
-  line-height: 114.99999999999999%;
+  line-height: 1.15;
   font-size: 100px;
   text-transform: uppercase;
   z-index: 2;
@@ -71,7 +71,7 @@
 
 .aligned-text {
   display: block;
-  letter-spacing: 0.3em;
+  letter-spacing: 30%;
 }
 
 .aligned-text_center {
