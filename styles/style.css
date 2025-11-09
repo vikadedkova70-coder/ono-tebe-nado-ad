@@ -64,7 +64,6 @@
   color: white;
   font-weight: bold;
   font-size: 100px;
-  line-height: 1.15;
   text-transform: uppercase;
   z-index: 2;
 }
@@ -72,6 +71,7 @@
 .aligned-text {
   display: block;
   letter-spacing: 0.3em;
+  line-height: 1.15;
 }
 
 .aligned-text_center {
