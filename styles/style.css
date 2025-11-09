@@ -38,7 +38,7 @@
   justify-self: end;
   max-width: 240px;
   font-style: normal;
-  line-height: 1.35;
+  line-height: 24.3px;
 }
 
 .cover {
@@ -245,7 +245,7 @@
 .footer__address {
   justify-self: start;
   font-style: normal;
-  line-height: 1.35;
+  line-height: 24.3px;
 }
 
 .footer__menu {
