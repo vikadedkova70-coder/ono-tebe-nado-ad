@@ -123,13 +123,13 @@
 
 .lots__card-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 30px;
   list-style: none;
 }
 
 .lots__card-list-item {
+  flex-wrap: wrap;
   width: 334px;
   height: 596px;
 }
